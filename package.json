@@ -1,0 +1,42 @@
+{
+  "name": "ch1ll.z",
+  "version": "1.0.0",
+  "description": "The official Ch1ll Studio Manager (Ch1llz) bot files.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "checkPacs": "npx npm-check-updates",
+    "checkPacs:update": "npx npm-check-updates -u && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KingCh1ll/ch1ll-studios-support.git"
+  },
+  "author": "KingCh1ll",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/KingCh1ll/ch1ll-studios-support/issues"
+  },
+  "homepage": "https://github.com/KingCh1ll/ch1ll-studios-support#readme",
+  "dependencies": {
+    "@discordjs/builders": "^0.6.0",
+    "@discordjs/rest": "0.1.0-canary.0",
+    "@replit/database": "^2.0.1",
+    "asciiart-logo": "^0.2.6",
+    "chalk": "^4.1.2",
+    "discord-api-types": "^0.23.1",
+    "discord.js": "^13.3.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "node": "^16.10.0",
+    "socket.io": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13",
+    "eslint": "^8.4.1",
+    "eslint-plugin-import": "^2.25.3",
+    "prettier": "2.5.1"
+  }
+}
