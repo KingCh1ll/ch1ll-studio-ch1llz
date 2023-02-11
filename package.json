@@ -34,7 +34,7 @@
     "socket.io": "^4.2.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.13",
+    "nodemon": "^2.0.20",
     "eslint": "^8.4.1",
     "eslint-plugin-import": "^2.25.3",
     "prettier": "2.5.1"
